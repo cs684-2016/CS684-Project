@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.apps.koona.managepower.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/refresh"
+        android:id="@+id/buttonGet" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/temperatureLabel"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:text="@string/humidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/humidityLabel"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/temperature"
+            android:layout_weight="1"
+            android:textSize="36sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/humidity"
+            android:layout_weight="1"
+            android:textSize="36sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <Button
+        android:text="@string/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profiles" />
+
+    <Button
+        android:text="@string/devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/devices" />
+
+    <Button
+        android:text="@string/add_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newdevice" />
+
+    <Button
+        android:text="@string/timers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timers" />
+
+    <Button
+        android:text="@string/new_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newtimer" />
+
+</LinearLayout>
