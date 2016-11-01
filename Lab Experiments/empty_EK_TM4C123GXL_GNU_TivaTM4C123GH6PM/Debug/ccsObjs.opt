@@ -1,0 +1,1 @@
+"./EK_TM4C123GXL.o" "./empty.o" "./gameConsoleRTOS.o" -Wl,-T"../EK_TM4C123GXL.lds" -Wl,-T"configPkg/linker.cmd" -Wl,--start-group -l"gr" -l"usb" -l"driver" -l"gcc" -l"m" -l"rdimon" -l"c" -Wl,--end-group 
